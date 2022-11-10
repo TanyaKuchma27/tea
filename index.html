@@ -4,13 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Homework 7</title>
-    <link rel="stylesheet" href="css/common.css" />
+    <title>Tea</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <ul>
-      <li><a href="01-gallery.html">Image gallery</a></li>
-      <li><a href="02-lightbox.html">SimpleLightbox library</a></li>
-    </ul>
+    <div class="container">
+      <ul class="list">
+        <li class="peppermint slide active">
+          <img class="new" src="./images/peppermint/peppermint-newBanner.png" alt="new">
+          <img class="header" src="./images/peppermint/pepermint-tagline-back.png" alt="peppermint-tagline">
+          <img class="header-text" src="./images/peppermint/pepermint-tagline.png" alt="peppermint-tagline">
+          <img class="product" src="./images/peppermint/peppermint-product.png" alt="peppermint-product">
+          <img class="peppermint-one" src="./images/peppermint/pepermint-elements/pepermint-1.png" alt="peppermint">
+          <img class="peppermint-two" src="./images/peppermint/pepermint-elements/pepermint-2.png" alt="peppermint">
+          <img class="seed" src="./images/peppermint/pepermint-elements/seed-1.png" alt="seed">
+          <img class="seed-two" src="./images/peppermint/pepermint-elements/seed-2.png" alt="seed">
+          <img class="seed-two" src="./images/peppermint/pepermint-elements/seed-2.png" alt="seed">
+          <img class="strawberry" src="./images/peppermint/pepermint-elements/strawberry-1.png" alt="strawberry">
+          <img class="strawberry-two" src="./images/peppermint/pepermint-elements/strawberry-2.png" alt="strawberry">
+        </li>
+        <li class="raspberry slide">
+          <img class="header" src="./images/raspberry/raspberry-tagline.png" alt="peach-tagline">
+          <img class="product" src="./images/raspberry/raspberry-product.png" alt="raspberry-product">
+        </li>
+        <li class="peach slide">
+          <img class="header" src="./images/peach/peach-tagline.png" alt="peach-tagline">
+          <img class="product" src="./images/peach/peach-product.png" alt="peach-product">
+        </li>
+      </ul>
+      <button type="button" class="button left" id="btn-prev">
+        <img class="btn" src="./images/arrow-left.png" alt="button left">
+      </button>              
+      <button type="button" class="button right" id="btn-next">
+        <img class="btn" src="./images/arrow-right.png" alt="button right">
+      </button>
+      <a href="https://www.google.com/" class="footer" target="_blank" rel="noopener noreferrer">
+        <img class="footer-photo" src="./images/shop-now.png" alt="shop now">
+      </a>
+    </div>
+    <script src="js/tea.js" type="module"></script>
   </body>
 </html>

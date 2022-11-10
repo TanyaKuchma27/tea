@@ -1,25 +1,10 @@
-:root {
+* {
+  box-sizing: border-box;
+}
+
+/* :root {
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --animation-duration: 250ms;
-}
-
-.gallery {
-  display: grid;
-  max-width: 1140px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-auto-rows: 240px;
-  grid-gap: 12px;
-  justify-content: center;
-  padding: 0;
-  list-style: none;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.gallery__item {
-  position: relative;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
 
 .gallery__image:hover {
@@ -31,14 +16,153 @@
   width: 100%;
   object-fit: cover;
   transition: transform var(--animation-duration) var(--timing-function);
+} */
+
+img {
+  display: block;
 }
 
-.gallery__link {
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 414px;
+  height: 736px;
+  overflow: hidden;
+}
+
+.list {  
+  list-style: none; 
+  margin: 0; 
+  padding: 0;  
+}
+
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.left {
+  position: absolute;
+  top: 420px;
+  left: 10px;
+}
+
+.right {
+  position: absolute;
+  top: 420px;
+  right: 10px;
+}
+
+.btn {
+  width: 30px;
+  height: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.active {
   display: block;
-  text-decoration: none;
   height: 100%;
 }
 
-.gallery__link:hover {
-  cursor: zoom-in;
+.header {
+  width: 390px;
+  padding-bottom: 460px;
+}
+
+.header-text {
+  position: absolute;
+  top: 122px;
+  left: 52px;
+  width: 258px;
+  z-index: 1;
+}
+
+.product {
+  position: absolute;
+  top: 324px;
+  left: 83px;
+  width: 250px;
+  z-index: 1;
+}
+
+.peach {
+  background-image: url('../images/peach/peach-BG.jpg');
+}
+
+.peppermint {
+  background-image: url('../images/peppermint/peppermint-BG.jpg');
+}
+
+.raspberry {
+  background-image: url('../images/raspberry/raspberry-BG.jpg');
+}
+
+.footer {
+  position: absolute;  
+  bottom: 65px;
+  right: 130px;
+}
+
+.footer-photo {
+  width: 150px;
+}
+
+.new {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 75px;
+}
+
+.peppermint-one {
+  position: absolute;
+  top: 434px;
+  left: 9px;
+  width: 204px;
+  background: transparent;
+}
+
+.peppermint-two {
+  position: absolute;
+  bottom: -65px;
+  right: -48px;
+  width: 171px;
+  background: transparent;  
+}
+
+.seed {
+  position: absolute;
+  bottom: 122px;
+  right: 40px;
+  width: 42px;
+  background: transparent;
+}
+
+.seed-two {
+  position: absolute;
+  bottom: 269px;
+  right: -26px;
+  width: 42px;
+  background: transparent;
+}
+
+.strawberry {
+  position: absolute;
+  top: 294px;
+  left: -73px;
+  width: 150px;
+  background: transparent;
+}
+
+.strawberry-two {
+  position: absolute;
+  top: 294px;
+  right: 11px;
+  width: 162px;
+  background: transparent;
 }
