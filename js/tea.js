@@ -24,7 +24,7 @@ function nextSlide() {
     activeSlide(index);
   } else {
     index++;
-    activeSlide(index);;
+    activeSlide(index);
   }
 }
 

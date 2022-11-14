@@ -166,12 +166,12 @@ img {
 
 .peppermint {
   background-image: url('../images/peppermint/peppermint-BG.jpg');
-  height: 100vh;
+  height: 100%;
 }
 
 .raspberry {
   background-image: url('../images/raspberry/raspberry-BG.jpg');
-  height: 100vh;
+  height: 100%;
 }
 
 .footer {
