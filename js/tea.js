@@ -70,11 +70,10 @@ function handleTouchMove(evt) {
   if ( Math.abs( xDiff ) > Math.abs( yDiff ) )
     if ( xDiff > 0 ) {
       /* left swipe */ 
-      nextSlide;
+      nextSlide();
     } else {
       /* right swipe */
-      prevSlide;
-      
+      prevSlide();
     }                       
 
     xDown = null;

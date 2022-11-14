@@ -150,6 +150,7 @@ img {
   width: 250px;
   z-index: 1;
   animation: right-to-left 0.5s both cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-animation: right-to-left 0.5s both cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .peach {
