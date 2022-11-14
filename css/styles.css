@@ -57,14 +57,15 @@ body {
 }
 
 @media screen and (min-width: 450px) {
-  .container {    
+  body {    
     background-image: url('../images/not-available.png');
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;    
+    padding: 130px;
   }
 
-  .list, button, a {
+  .container {
     display: none;
   }  
 }
