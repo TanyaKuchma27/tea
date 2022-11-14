@@ -19,23 +19,19 @@ body {
 @keyframes right-to-left {
   0% {
     transform: translateX(150%);
-    -webkit-transform: translateX(150%);    
   }
 
   100% {
     transform: 0;
-    -webkit-transform: 0;  
   }
 }
 
 @-webkit-keyframes right-to-left {
   0% {
-    transform: translateX(150%);
     -webkit-transform: translateX(150%);   
   }
 
   100% {
-    transform: 0;
     -webkit-transform: 0;
   }
 }
@@ -43,12 +39,10 @@ body {
 @keyframes top-to-bottom {
   0% {
     transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
   }
 
   100% {
     transform: 0;
-    -webkit-transform: 0;
   }
 }
 
