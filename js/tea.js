@@ -14,11 +14,15 @@ function activeSlide(n) {
   slides[n].classList.add('active');
 }
 
-function nextSlide() {
+function resetFirstAnimation() {
   startHeader.classList.add('none');
   nextHeader.classList.remove('none');
   peppermintProduct.classList.add('product');
   peppermintProduct.classList.remove('peppermint-product');
+}
+
+function nextSlide() {
+  resetFirstAnimation();  
   if(index === slides.length - 1) {
     index = 0;
     activeSlide(index);
@@ -29,10 +33,7 @@ function nextSlide() {
 }
 
 function prevSlide() {
-  startHeader.classList.add('none');
-  nextHeader.classList.remove('none');
-  peppermintProduct.classList.add('product');
-  peppermintProduct.classList.remove('peppermint-product');
+  resetFirstAnimation();
   if(index === 0) {
     index = slides.length - 1;
     activeSlide(index);
