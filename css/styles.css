@@ -249,8 +249,8 @@ img {
 
 .strawberry-two {
   position: absolute;
-  top: 294px;
-  left: 209px;
+  top: 285px;
+  left: 226px;
   width: 162px;
   background: transparent;
   animation: scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
