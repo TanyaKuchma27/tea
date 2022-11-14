@@ -19,14 +19,24 @@ body {
 @keyframes right-to-left {
   0% {
     transform: translateX(150%);
-    -webkit-transform: translateX(150%);
-    -ms-transform: translateX(150%);
+    -webkit-transform: translateX(150%);    
+  }
+
+  100% {
+    transform: 0;
+    -webkit-transform: 0;  
+  }
+}
+
+@-webkit-keyframes right-to-left {
+  0% {
+    transform: translateX(150%);
+    -webkit-transform: translateX(150%);   
   }
 
   100% {
     transform: 0;
     -webkit-transform: 0;
-    -ms-transform: 0;
   }
 }
 
@@ -153,7 +163,6 @@ img {
   z-index: 1;
   animation: right-to-left 0.5s both cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-animation: right-to-left 0.5s both cubic-bezier(0.4, 0, 0.2, 1);
-  -ms-animation: right-to-left 0.5s both cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .peach {
