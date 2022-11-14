@@ -19,20 +19,24 @@ body {
 @keyframes right-to-left {
   0% {
     transform: translateX(150%);
+    -webkit-transform: translateX(150%);
   }
 
   100% {
     transform: 0;
+    -webkit-transform: 0;
   }
 }
 
 @keyframes top-to-bottom {
   0% {
     transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
   }
 
   100% {
     transform: 0;
+    -webkit-transform: 0;
   }
 }
 
@@ -206,7 +210,7 @@ img {
   right: -48px;
   width: 171px;
   background: transparent;  
-  animation: scale 1s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .seed {
@@ -215,7 +219,7 @@ img {
   right: 21px;
   width: 42px;
   background: transparent;
-  animation: scale 1s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .seed-two {
@@ -224,7 +228,7 @@ img {
   right: -26px;
   width: 42px;
   background: transparent;
-  animation: scale 1s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .strawberry {
@@ -233,7 +237,7 @@ img {
   left: -73px;
   width: 150px;
   background: transparent;
-  animation: scale 1s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .strawberry-two {
@@ -242,7 +246,7 @@ img {
   left: 209px;
   width: 162px;
   background: transparent;
-  animation: scale 1s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .lemon {
